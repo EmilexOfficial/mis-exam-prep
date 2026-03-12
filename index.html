@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIS Exam Preparation Tool</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #333; }
+        .flashcard { border: 1px solid #ddd; padding: 10px; margin: 5px 0; cursor: pointer; }
+        .quiz-question { margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>MIS Exam Preparation Tool</h1>
+
+    <h2>Chapters</h2>
+    <div id="chapters">
+        <h3>Chapter 1: Introduction to MIS</h3>
+        <p>Content about Chapter 1...</p>
+        <h3>Chapter 2: Data Management</h3>
+        <p>Content about Chapter 2...</p>
+        <h3>Chapter 3: Information Systems</h3>
+        <p>Content about Chapter 3...</p>
+        <h3>Chapter 4: Decision Support Systems</h3>
+        <p>Content about Chapter 4...</p>
+        <h3>Chapter 5: Executive Information Systems</h3>
+        <p>Content about Chapter 5...</p>
+        <h3>Chapter 6: Knowledge Management</h3>
+        <p>Content about Chapter 6...</p>
+        <h3>Chapter 7: Emerging Technologies</h3>
+        <p>Content about Chapter 7...</p>
+        <h3>Chapter 8: Information Security</h3>
+        <p>Content about Chapter 8...</p>
+        <h3>Chapter 9: IT Governance</h3>
+        <p>Content about Chapter 9...</p>
+        <h3>Chapter 10: Business Intelligence</h3>
+        <p>Content about Chapter 10...</p>
+        <h3>Chapter 11: E-Commerce</h3>
+        <p>Content about Chapter 11...</p>
+        <h3>Chapter 12: Future Directions in MIS</h3>
+        <p>Content about Chapter 12...</p>
+    </div>
+
+    <h2>Flashcards</h2>
+    <div id="flashcards">
+        <div class="flashcard">What is MIS?</div>
+        <div class="flashcard">How does data management work?</div>
+        <div class="flashcard">Explain decision support systems.</div>
+    </div>
+
+    <h2>MCQ Quiz</h2>
+    <div id="quiz">
+        <div class="quiz-question">
+            <p>1. What does MIS stand for?</p>
+            <input type="radio" name="q1" value="Management Information Systems"> Management Information Systems<br>
+            <input type="radio" name="q1" value="Management Integrated System"> Management Integrated System<br>
+            <input type="radio" name="q1" value="Managed Information System"> Managed Information System<br>
+        </div>
+    </div>
+
+    <h2>Theory Questions</h2>
+    <div id="theory-questions">
+        <p>1. Discuss the role of MIS in an organization.</p>
+        <p>2. Explain the significance of data security.</p>
+    </div>
+
+    <h2>Glossary</h2>
+    <div id="glossary">
+        <p><strong>MIS:</strong> Management Information System</p>
+        <p><strong>Data Management:</strong> The practice of organizing and maintaining data...</p>
+    </div>
+
+    <h2>Key Details</h2>
+    <div id="key-details">
+        <p><strong>Key Concept 1:</strong> The importance of information systems in decision making.</p>
+    </div>
+
+    <h2>Objective Questions</h2>
+    <div id="objective-questions">
+        <p>1. Describe the major types of information systems.</p>
+    </div>
+
+    <script>
+        const flashcards = document.getElementsByClassName('flashcard');
+        for (let card of flashcards) {
+            card.onclick = function() {
+                alert(this.innerHTML);
+            };
+        }
+    </script>
+</body>
+</html>
